@@ -14,7 +14,7 @@ public class Database_Connection {
         try {
             String url = "jdbc:mysql://localhost:3306/event_manager_db?zeroDateTimeBehavior=CONVERT_TO_NULL";
             String user = "root";
-            String password = "KayZa21.";
+            String password = "KaySQL21.";
             connection = DriverManager.getConnection(url, user, password);
             //System.out.println("Connection successful!");
         } catch (SQLException e) {
